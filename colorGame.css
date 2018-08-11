@@ -1,0 +1,80 @@
+/* Select by Tag-name */
+body {
+    background-color: #f29e93;
+    margin: 0px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+}
+h1 {
+    /* Game Title */
+    text-align: center;
+    font-size: 3em;
+    font-weight: 400;
+    margin: 0;
+    background-color:#bee585;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    color: white;
+    text-transform: uppercase;
+    line-height: 1.2;
+    transition: all 0.4s;
+}
+button {
+    border: none;
+    background-color: #92baef;
+    height: 100%;
+    font-size: 1em;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    color: white;
+    text-transform: uppercase;
+    transition: all 0.4s;
+    outline: none;
+}
+button:hover {
+    background-color: #bee585;
+    color: #92baef;
+}
+
+/* Select by Class */
+.selected {
+    /* Change class of difficulty level selected */
+    background-color: #bee585;
+}
+.square {
+    /* Display the color options */
+    width: 30%;
+    margin: 1.66%;
+    float: left;
+    padding-bottom: 30%;
+    background-color: purple;
+    border-radius: 10%;
+    transition: all 0.4s;
+}
+
+/* Select by ID */
+#container {
+    /* Contains the squares with the color options */
+    max-width: 60%;
+    margin: 0 auto;
+}
+#menu {
+    /* Contains game options */
+    background-color: #92baef;
+    height: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    /* margin-bottom:; */
+    margin: auto;
+}
+#colorDisplay {
+    /* Display the RGB color player has to match. Located inside H1 */
+    font-size: 2em;
+}
+#result {
+    /* Displays if player selected right/wrong choice */
+    display: inline-block;
+    width: 25%;
+    font-weight: 700;
+    color: white;
+}
